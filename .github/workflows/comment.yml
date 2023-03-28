@@ -3,6 +3,8 @@ name: Code Review
 on:
   issue_comment:
     types: [created, edited]
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 jobs:
   code-review:
