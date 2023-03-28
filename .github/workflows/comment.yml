@@ -12,7 +12,7 @@ jobs:
     - name: OpenAI ChatGPT Code Review
       uses: adshao/chatgpt-code-review-action@v0.2
       with:
-        PROGRAMMING_LANGUAGE: 'JavaScript'
+        PROGRAMMING_LANGUAGE: 'Swift'
         OPENAI_TOKEN: ${{ secrets.OPENAI_API_KEY }}
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         FULL_REVIEW_COMMENT: 'chatgpt'
